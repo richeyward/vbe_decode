@@ -11,8 +11,6 @@ filename = sys.argv[1]
 
 os.system("clear")
 
-decoded = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "
-
 charmap="1231232332321323132311233213233211323231311231321323112331123132"
 d = [[],[],[],[]]
 f = open("map.txt").readlines()
